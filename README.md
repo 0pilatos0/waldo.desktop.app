@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App ~ Dgarc
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,3 +45,14 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+=======
+# Waldo Vision<br>
+`npm install` installs dependencies (includes dev)<br>
+`npm start` launches electron app (normal code)<br>
+`npm run compile` compile electron app into executable application<br>
+
+`npm run react` launches react app in dev mode<br>
+`npm run build` builds react site<br>
+`npm run test` tests react site<br>
+
+>>>>>>> bece045a6920c122462f786dd048326792b2684e

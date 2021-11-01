@@ -1,0 +1,16 @@
+{
+  "name": "Waldo.vision",
+  "version": "1.0.0",
+  "description": "TBD",
+  "main": "main.js",
+  "author": "Waldo Development Team",
+  "license": "TBD",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . Waldo"
+  },
+  "devDependencies": {
+    "electron": "^15.3.0",
+    "electron-packager": "^15.4.0"
+  }
+}

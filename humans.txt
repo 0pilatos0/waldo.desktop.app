@@ -33,6 +33,28 @@
 	Twitter: N/A
 	Location: UK
 
+	Dev: Steve (Darion Spaargaren)
+	Dates: genesis ---> present
+	Contact: darion.spaargaren@gmail.com
+	Site: https://www.youtube.com/channel/UC0GP9rATvC5L8yH_NrCaBJw
+	Discord: Steveplays#9659
+	Twitter: @Steveplays28
+	Location: The Netherlands
+	
+	Dev: Aero
+        Dates: genesis ---> present
+        Contact: aerotam442@gmail.com
+        Discord: Aero#6520
+        GitHub: Aeliko
+
+    	UI/UX Designer: leqitside (Lewin B.)
+        Dates: genesis ---> present
+        Contact: contact@lewinside.de
+        Site: lewinside.de (highly outdated)
+        Discord: leqitside#2879
+        Twitter: @lew1ns1de
+        Location: Germany
+
 
 /* THANKS FEATURES */
    # big ups!

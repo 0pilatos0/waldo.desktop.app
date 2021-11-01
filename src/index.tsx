@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
+import './index.css';
 import Header from './Components/Header';
 import Home from './Views/Home/Home';
 

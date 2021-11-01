@@ -1,11 +1,12 @@
 const path = require('path');
-
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, ipcMain } = require('electron');
 const isDev = require('electron-is-dev');
+
+let win;
 
 function createWindow() {
 	// Create the browser window.
-	const win = new BrowserWindow({
+	win = new BrowserWindow({
 		width: 800,
 		height: 600,
 		title: 'Waldo',
@@ -49,4 +50,9 @@ app.on('activate', () => {
 	if (BrowserWindow.getAllWindows().length === 0) {
 		createWindow();
 	}
+});
+
+ipcMain.on('minimizeWindow', async (event) => {
+	win.minimize();
+	debug.log('ayyy');
 });

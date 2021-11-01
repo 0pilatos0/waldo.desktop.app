@@ -54,5 +54,4 @@ app.on('activate', () => {
 
 ipcMain.on('minimizeWindow', async (event) => {
 	win.minimize();
-	debug.log('ayyy');
 });

@@ -16,5 +16,6 @@
 		"noEmit": true,
 		"jsx": "react-jsx"
 	},
-	"include": ["src", "public/preload.ts", "app/renderer.ts"]
+	"include": ["src", "public/preload.ts", "public/renderer.ts"],
+	"exclude": ["/node_modules"]
 }

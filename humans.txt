@@ -33,6 +33,14 @@
 	Twitter: N/A
 	Location: UK
 
+	Dev: Steve (Darion Spaargaren)
+	Dates: genesis ---> present
+	Contact: darion.spaargaren@gmail.com
+	Site: https://www.youtube.com/channel/UC0GP9rATvC5L8yH_NrCaBJw
+	Discord: Steveplays#9659
+	Twitter: @Steveplays28
+	Location: The Netherlands
+
 
 /* THANKS FEATURES */
    # big ups!

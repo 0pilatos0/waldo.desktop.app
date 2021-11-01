@@ -1,15 +1,22 @@
-import React from 'react'
+import React from 'react';
+import { withRouter } from 'react-router-dom';
+import styles from './Home.module.css';
 
-interface Props {
-    
+function Home() {
+	return (
+		<div className={styles.home}>
+			<p>
+				Edit <code>src/Home.tsx</code> and save to reload.
+			</p>
+			<a
+				href="https://reactjs.org"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				Learn React
+			</a>
+		</div>
+	);
 }
 
-const Home = (props: Props) => {
-    return (
-        <div>
-            <h1>This is the home page</h1>
-        </div>
-    )
-}
-
-export default Home
+export default withRouter(Home);

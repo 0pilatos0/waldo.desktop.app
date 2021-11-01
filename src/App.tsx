@@ -2,14 +2,6 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-<<<<<<< HEAD
-
-
-function App() {
-  return (
-    <div className="App">
-
-=======
 function App() {
   return (
     <div className="App">
@@ -27,7 +19,6 @@ function App() {
           Learn React
         </a>
       </header>
->>>>>>> bece045a6920c122462f786dd048326792b2684e
     </div>
   );
 }

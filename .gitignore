@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-=======
->>>>>>> bece045a6920c122462f786dd048326792b2684e
 # dependencies
 /node_modules
 /.pnp
@@ -13,10 +8,7 @@
 
 # production
 /build
-<<<<<<< HEAD
-=======
 /Waldo-win32-x64
->>>>>>> bece045a6920c122462f786dd048326792b2684e
 
 # misc
 .DS_Store
@@ -25,14 +17,4 @@
 .env.test.local
 .env.production.local
 
-<<<<<<< HEAD
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-package-lock.json
-
-test
-=======
-npm-debug.log*
->>>>>>> bece045a6920c122462f786dd048326792b2684e

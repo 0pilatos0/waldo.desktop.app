@@ -7,7 +7,7 @@
   "license": "TBD",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . Waldo"
+    "build": "electron-packager . Waldo --icon waldo.ico  --overwrite force"
   },
   "devDependencies": {
     "electron": "^15.3.0",

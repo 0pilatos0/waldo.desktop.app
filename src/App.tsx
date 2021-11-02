@@ -1,8 +1,10 @@
 import React from 'react';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
-import AppBar from './components/AppBar'
 import './App.css';
+import AppBar from './components/AppBar'
+import Home from './Views/Home/Home'
+
 
 const darkTheme = createTheme({
   palette: {
@@ -15,6 +17,7 @@ function App() {
     <div className="App">
       <ThemeProvider theme={darkTheme}>
       <AppBar/>
+      <Home/>
       </ThemeProvider>
     </div>
   );

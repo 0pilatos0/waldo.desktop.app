@@ -1,5 +1,5 @@
 {
-	"name": "waldo-electron-react-ts",
+	"name": "waldo.desktop.app",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {

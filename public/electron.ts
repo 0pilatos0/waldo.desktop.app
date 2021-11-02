@@ -53,8 +53,21 @@ app.on('activate', () => {
 	}
 });
 
-ipcMain.on('toMain', (event: any, args: string[]) => {
+// Ignore the TypeScript errors lol
+ipcMain.on('toMain', (event, args) => {
 	if (args[0] === 'minimizeWindow') {
 		win.minimize();
+	}
+
+	if (args[0] === 'maximizeWindow') {
+		if (win.isMaximized()) {
+			win.restore();
+		} else {
+			win.maximize();
+		}
+	}
+
+	if (args[0] === 'closeWindow') {
+		win.close();
 	}
 });

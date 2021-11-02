@@ -24,14 +24,17 @@ function Header() {
 
 	return (
 		<header className={styles.header}>
-			<img src={waldoLogoTransparent} alt='Waldo' className={styles.waldoLogoTransparent} />
-
 			<Link
 				className={
 					styles[`${page === homePage ? 'link' : 'linkActive'}`]
 				}
 				to={homePage}
 			>
+				<img
+					src={waldoLogoTransparent}
+					alt="Waldo"
+					className={styles.waldoLogoTransparent}
+				/>
 				Waldo
 			</Link>
 			<Link

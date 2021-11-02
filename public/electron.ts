@@ -12,7 +12,6 @@ function createWindow() {
 		title: 'Waldo',
 		icon: './public/waldo.ico',
 		darkTheme: true,
-		titleBarStyle: 'hidden',
 		frame: false,
 		webPreferences: {
 			nodeIntegration: true,

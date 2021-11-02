@@ -7,6 +7,15 @@ import './index.css';
 import Header from './Components/Header';
 import Home from './Views/Home/Home';
 
+// Global declarations
+declare global {
+	// See preload.js and Header.tsx
+	interface Window {
+	  api?: any;
+	}
+  }
+
+// Render application using React
 render(
 	<StrictMode>
 		<BrowserRouter>

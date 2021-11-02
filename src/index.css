@@ -1,6 +1,14 @@
+:root {
+	--background-color-primary: #282c34;
+
+	--text-color: white;
+	--link-color: #84c8ca;
+	--link-color-active: #98e8eb;
+}
+
 body {
-	background-color: #282c34;
-	color: white;
+	background-color: var(--background-color-primary);
+	color: var(--text-color);
 	font-size: calc(10px + 2vmin);
 
   margin: 0;

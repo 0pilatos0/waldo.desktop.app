@@ -2,17 +2,15 @@ import React from 'react';
 import { Link, withRouter } from 'react-router-dom';
 
 import styles from './Header.module.css';
+import waldoLogoTransparent from '../Media/WaldoLogoTransparent.png';
 
 function minimizeWindow() {
-	// @ts-ignore
 	window.api.send('toMain', ['minimizeWindow']);
 }
 function maximizeWindow() {
-	// @ts-ignore
 	window.api.send('toMain', ['maximizeWindow']);
 }
 function closeWindow() {
-	// @ts-ignore
 	window.api.send('toMain', ['closeWindow']);
 }
 
@@ -26,6 +24,8 @@ function Header() {
 
 	return (
 		<header className={styles.header}>
+			<img src={waldoLogoTransparent} alt='Waldo' className={styles.waldoLogoTransparent} />
+
 			<Link
 				className={
 					styles[`${page === homePage ? 'link' : 'linkActive'}`]
@@ -51,15 +51,26 @@ function Header() {
 				Settings
 			</Link>
 
-			<button className={styles['link']} onClick={() => minimizeWindow()}>
-				-
-			</button>
-			<button className={styles['link']} onClick={() => maximizeWindow()}>
-				O
-			</button>
-			<button className={styles['link']} onClick={() => closeWindow()}>
-				X
-			</button>
+			<div className={styles['windowButtons']}>
+				<button
+					className={styles['windowButton']}
+					onClick={() => minimizeWindow()}
+				>
+					-
+				</button>
+				<button
+					className={styles['windowButton']}
+					onClick={() => maximizeWindow()}
+				>
+					O
+				</button>
+				<button
+					className={styles['windowButton']}
+					onClick={() => closeWindow()}
+				>
+					X
+				</button>
+			</div>
 		</header>
 	);
 }

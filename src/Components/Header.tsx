@@ -3,10 +3,11 @@ import { Link, withRouter } from 'react-router-dom';
 
 import styles from './Header.module.css';
 
-// function minimizeWindow() {
-// 	const {ipcRenderer} = require('electron')
-// 	ipcRenderer.send('minimizeWindow');
-// }
+function minimizeWindow() {
+	// @ts-ignore
+	window.api.send('toMain', 'minimizeWindow');
+	console.log('eeee');
+}
 
 function Header() {
 	let path = window.location.pathname;
@@ -43,7 +44,7 @@ function Header() {
 				Downloads
 			</Link>
 
-			{/* <button
+			<button
 				className={styles['link']}
 				onClick={() => minimizeWindow()}
 			>
@@ -60,7 +61,7 @@ function Header() {
 				onClick={() => minimizeWindow()}
 			>
 				X
-			</button> */}
+			</button>
 		</header>
 	);
 }

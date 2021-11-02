@@ -16,6 +16,7 @@ function createWindow() {
 		frame: false,
 		webPreferences: {
 			nodeIntegration: true,
+			preload: path.join(__dirname, 'preload.js'),
 		},
 	});
 
@@ -52,6 +53,9 @@ app.on('activate', () => {
 	}
 });
 
-ipcMain.on('minimizeWindow', async (event) => {
-	win.minimize();
+ipcMain.on('toMain', (event, args) => {
+	console.log('hehe');
+	if (args == 'minimizeWindow') {
+		win.minimize();
+	}
 });

@@ -7,7 +7,6 @@
 		"@testing-library/jest-dom": "^5.14.1",
 		"@testing-library/react": "^12.1.2",
 		"@testing-library/user-event": "^13.5.0",
-		"@types/electron": "^1.6.10",
 		"@types/jest": "^27.0.2",
 		"@types/react": "^17.0.33",
 		"@types/react-dom": "^17.0.10",
@@ -50,6 +49,7 @@
 		]
 	},
 	"devDependencies": {
+		"@types/electron": "^1.6.10",
 		"@types/node": "^16.11.6",
 		"@types/react-helmet": "^6.1.4",
 		"@types/react-router": "^5.1.17",

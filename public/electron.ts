@@ -53,9 +53,8 @@ app.on('activate', () => {
 	}
 });
 
-ipcMain.on('toMain', (event, args) => {
-	console.log('hehe');
-	if (args == 'minimizeWindow') {
+ipcMain.on('toMain', (event: any, args: string[]) => {
+	if (args[0] === 'minimizeWindow') {
 		win.minimize();
 	}
 });

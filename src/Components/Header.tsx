@@ -5,8 +5,7 @@ import styles from './Header.module.css';
 
 function minimizeWindow() {
 	// @ts-ignore
-	window.api.send('toMain', 'minimizeWindow');
-	console.log('eeee');
+	window.api.send('toMain', ['minimizeWindow']);
 }
 
 function Header() {
@@ -44,22 +43,13 @@ function Header() {
 				Downloads
 			</Link>
 
-			<button
-				className={styles['link']}
-				onClick={() => minimizeWindow()}
-			>
+			<button className={styles['link']} onClick={() => minimizeWindow()}>
 				-
 			</button>
-			<button
-				className={styles['link']}
-				onClick={() => minimizeWindow()}
-			>
+			<button className={styles['link']} onClick={() => minimizeWindow()}>
 				O
 			</button>
-			<button
-				className={styles['link']}
-				onClick={() => minimizeWindow()}
-			>
+			<button className={styles['link']} onClick={() => minimizeWindow()}>
 				X
 			</button>
 		</header>
